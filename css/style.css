@@ -145,6 +145,8 @@ body {
 }
 .page__whoweare {
 }
+.page__clients {
+}
 
 /* ===== HEADER-BLOCK =================================================================================================================================================== */
 .header-block {
@@ -505,6 +507,7 @@ body {
 
 .whoweare {
   padding: 80px 0 130px 0;
+  background-color: #fff;
 }
 @media (max-width: 950px) {
   .whoweare {
@@ -639,6 +642,33 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* ===== CLIENTS =================================================================================================================================================== */
+.clients {
+  padding: 50px 0;
+}
+@media (max-width: 767px) {
+  .clients {
+    padding: 30px 0;
+  }
+}
+.clients__container {
+}
+.clients__items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.clients__item {
+  padding: 8px 15px;
+  flex: 0 1 16.6667%;
+  text-align: center;
+  min-width: 140px;
+}
+.clients__item img {
+  max-width: 100%;
 }
 /* ===== FOOTER =================================================================================================================================================== */
 
